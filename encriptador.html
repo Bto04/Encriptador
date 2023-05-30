@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&display=swap" rel="stylesheet">
+        <title>Encriptador de Texto</title>
+    </head>
+    <body>
+        <header>
+            <img src="img/Logo.png" alt="LogoAlura" class="logoalura">
+        </header>
+        <main>
+            <section class="seccion1">
+                <textarea class="area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="contenedor-botones">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="seccion2">
+                <img src="img/Desencriptado.jpg" alt="ImagenDesencriptado" class="desencriptadoimg">
+                <div class="contenedor-h2">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                </div>
+                <div class="contenedor-parrafo">
+                    <p>Ingresa el texto que desea encriptar o desencriptar</p>
+                </div>
+                <div class="contenedor-resultado">
+                    <h3>Mensaje:</h3>
+                    <p class="texto-resultado"></p>
+                </div>
+                <div class="contenedor-copiar">
+                    <input type="button" class="btn-copiar" value="Copiar">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Desarrollado por Jesus Tenorio</p>
+        </footer>
+        <script src="scriptEncriptador.js"></script>
+    </body>
+
+
+</html>

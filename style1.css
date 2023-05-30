@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+}
+
+.logoalura{
+    width: 100px;
+    padding-top: 20px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: brown;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 90%;
+    /*background-color: darkgreen;*/
+}
+
+.seccion1{
+    width: 60%;
+
+}
+
+.area{
+    position: absolute;
+    width: 50%;
+    height: 55%;
+    left: 10%;
+    top: 15%;
+    background: none;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    resize: none;
+}
+
+.area::placeholder {
+    color: #0a3871;
+}
+
+.area:focus,area:active {
+    border: none;
+    outline: none;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 70%;
+    font-size: 14px;
+    color:#495057
+}
+
+.contenedor-botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 82%;
+}
+
+.btn-encriptar {
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5%;
+    gap: 8px;
+    width: 22%;
+    background-color: #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-desencriptar {
+    margin:2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1.5%;
+    gap: 8px;
+    width: 22%;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+}
+
+.btn-desencriptar:hover,.btn-encriptar:hover{
+    margin: 1%;
+    width: 25%;
+    padding: 2.1%;
+    font-size: 25px;
+}
+
+.seccion2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 60%;
+    top: 5%;
+    background: #fff;
+    box-shadow: 0px 30px 35px -10px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.desencriptadoimg{
+    position: absolute;
+    width: 80%;
+    height: 60%;    
+    top: 10%;
+}
+
+.contenedor-h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 16px;
+    position: absolute;
+    width: 100%;
+    top: 65%;
+    font-family: "Inter";
+    text-align: center;
+    background: none;
+}
+
+.contenedor-parrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 16px;
+    position: absolute;
+    width: 80%;
+    top: 70%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    background: none;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 70%;
+    padding-top: 5%;
+    font-family: "Inter";
+    font-size: 18px;
+    text-align: center;
+    box-sizing: border-box;
+    color:#495057
+}
+
+.contenedor-copiar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 90%;
+}
+
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: absolute;
+    top: 90%;
+    padding: 1.5%;
+    gap: 8px;
+    width: 30%;
+    background-color: #7b8188;
+    border-radius: 24px;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+    border: none;
+}
+
+.btn-copiar:hover{
+    margin: auto;
+    padding: 1.5%;
+    width: 40%;
+    font-size: 25px;
+}
+
+.texto-resultado{
+    padding-top: 20px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ocultar{
+    display: none;
+}
+
